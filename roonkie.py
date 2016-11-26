@@ -109,7 +109,7 @@ def main():
                 if event.key == pygame.K_RIGHT or event.key == pygame.K_d:
                     lead_x_change = DISPLAY_WIDTH/45
 
-                #take a shor break
+                #take a short break
                 if event.key == pygame.K_p:
                     time.sleep(5)
 
