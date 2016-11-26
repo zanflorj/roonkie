@@ -160,7 +160,7 @@ def main():
         #print some info on screen for user
         message_to_screen("Eaten: "+ str(eaten), WHITE, [5,0], T_FONT)
         message_to_screen("Score: "+ str(score), WHITE, [DISPLAY_WIDTH/2 - 35,0], T_FONT)
-        message_to_screen("Dropped: "+ str(dropped), WHITE, [DISPLAY_WIDTH - 115,0], T_FONT)
+        message_to_screen("Dropped: "+ str(dropped), WHITE, [DISPLAY_WIDTH - 125,0], T_FONT)
         message_to_screen("Move left: left arrow key or a key" , WHITE, [3,DISPLAY_HEIGHT-20], B_FONT)
         message_to_screen("Exit: q or ESC" , WHITE, [DISPLAY_WIDTH/2-35 , DISPLAY_HEIGHT-20], B_FONT)
         message_to_screen("Move right: right arrow key or d key" , WHITE, [DISPLAY_WIDTH-230, DISPLAY_HEIGHT-20], B_FONT)
