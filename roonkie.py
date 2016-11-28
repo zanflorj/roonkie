@@ -1,3 +1,7 @@
+#################################################################
+# Created by Zan Florjanc "zan.florjanc@gmail.com" on 24nov2016 #
+#################################################################
+
 import pygame
 import time
 import numpy as np
