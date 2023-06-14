@@ -50,7 +50,7 @@ SKY = pygame.image.load("sky.png").convert()
 CLOCK = pygame.time.Clock()
 
 #Fonts 
-T_FONT = pygame.font.SysFont("impact", DISPLAY_HEIGHT/25)
+T_FONT = pygame.font.SysFont("impact", DISPLAY_HEIGHT//25)
 B_FONT = pygame.font.SysFont("impact", 16)
 
 #load music
