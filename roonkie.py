@@ -31,7 +31,7 @@ DISPLAY_HEIGHT = 600
 GAME_DISPLAY = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 
 #Block to use when moving and blitting surfaces
-BLOCK = DISPLAY_HEIGHT/20
+BLOCK = DISPLAY_HEIGHT//20
 
 #Frames per second
 FPS = 30
